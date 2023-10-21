@@ -1,0 +1,184 @@
+
+
+
+
+@media (width > 767px) {
+
+
+      .group1{
+        width: 768px;
+        column-gap: 460px;
+    
+      }
+
+
+
+      .group23{
+        flex-direction: row;
+        column-gap: 78px;
+        justify-content: start;
+        width: 768px;
+        padding-left: 39px;
+        margin-top: 5px;
+      }
+
+
+      .group3{
+        width: 216.54px;
+        height: 382.531px;
+        border-radius: 158.5px;
+        background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+        background: url(assets/image-removebg-preview\(509\)\ \(1\).png),  linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        z-index: 100;
+      }
+
+
+      .msmb1{
+        width: 398px;
+      }
+
+
+      .g31{
+        margin-top: 325px;
+        margin-left: -50px;
+      }
+
+
+
+      .big{
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 32px;
+        margin-top: 140px;
+      }
+
+
+
+      .compc{
+        width: 339px;
+        height: 259px;
+        margin-top: 0px;
+      }
+
+      .cc1{
+        margin-top: 56px;
+        margin-left: 32px;
+      }
+
+
+
+
+
+
+      footer{
+        width: 768px;
+        column-gap: 460px;
+      }
+
+
+      .skilled{
+        margin-left: 40px;
+      }
+      
+
+      .button3{
+        margin-left: 0;
+      }
+
+
+
+      .purple{
+        display: flex;
+        position: relative;
+        width: 216.54px;
+        height: 688.557px;
+        transform: rotate(45deg);
+        fill: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+        z-index: 1;
+      }
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+@media (width > 1439px) {
+
+
+    .group1{
+        width: 1440px;
+        column-gap: 872px;
+    }
+
+    .group23{
+        column-gap: 350px;
+        padding-left: 165px;
+        width: 1440px;
+    }
+    
+    .group2{
+        margin-left: 0;
+    }
+
+
+    .compc{
+        width: 350px;
+        height: 322px;
+
+    }
+
+    .anibox{
+        width: 350px;
+        height: 322px;  
+    }
+
+    .cc1{
+        margin-top: 64px;
+        width: 286px;
+    }
+
+    .big{
+        grid-template-columns: auto auto auto;
+        row-gap: 80px;
+        column-gap: 30px;
+    }
+
+
+
+
+    footer{
+        width: 1440px;
+        column-gap: 829px;
+
+    }
+
+    .skilled{
+        margin-left: 165px;
+    }
+
+    .button1:hover{
+        border-radius: 28px;
+        background: var(--666CA3, #666CA3);
+    }
+
+
+    .button2:hover{
+        border-radius: 31.5px;
+        background: var(--Gradient-1-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    }
+
+    .button3:hover{
+        border-radius: 28px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+}
+

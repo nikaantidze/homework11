@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    width: 375px;
+    height: 100%;
+}
+
+
+.group1{
+    display: flex;
+    width: 343px;
+    justify-content: center;
+    align-items: center;
+    gap: 114px;
+    margin-top: 22px;
+
+}
+
+
+.skilled{
+    color: var(--13183F, #13183F);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.button1{
+    width: 140px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: var(--13183F, #13183F);
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    border: none;
+}
+
+
+
+.group2{
+    display: flex;
+    width: 343px;
+    justify-content: center;
+   
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+
+.msmb{
+    color: var(--13183F, #13183F);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading L */
+font-family: "Plus Jakarta Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 343px;
+}
+
+
+.msmb1{
+    color: var(--83869A, #83869A);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 343px;
+    margin-top: 26px;
+}
+
+
+.button2{
+    width: 167px;
+    height: 56px;
+    border-radius: 31.5px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+    border: none;
+}
+
+
+
+.group3{
+    width: 253px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 158.5px;
+    row-gap: 101px;
+    margin-top: 70px;
+    background: url(assets/image-removebg-preview\(509\).png),  linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    background-repeat: no-repeat ;
+    background-position: bottom ;
+    
+}
+
+
+.g31{
+    width: 155px;
+    height: 100px;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 181px;
+    margin-left: -40px;
+}
+
+
+
+.ch{
+    color: var(--83869A, #83869A);
+font-family: "Plus Jakarta Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 200% */
+margin-left: 20px;
+margin-top: 16px;
+}
+
+
+
+.ch1{
+    color: var(--13183F, #13183F);
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+
+.g32{
+    width: 105px;
+    height: 100px;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -24px;
+}
+
+
+.m1{
+    color: var(--83869A, #83869A);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+
+
+.m2{
+    color: var(--13183F, #13183F);
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+
+
+
+
+.group23{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple{
+    display: none;
+}
+
+.big{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+
+
+.compc{
+    width: 343px;
+    height: 120px;
+    border-radius: 10px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    margin-top: 90px;
+}
+
+
+
+.cc1{
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 133.333% */
+    width: 286px;
+    margin-top: 24px;
+    margin-left: 28px;
+}
+
+
+
+
+
+
+
+.anibox{
+    width: 343px;
+    height: 259px;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+
+.group8{
+    width: 56px;
+    height: 56px;
+    margin-left: 28px;
+    position: absolute;
+    margin-top: -23px;
+}
+
+
+.animation{
+    color: var(--13183F, #13183F);
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 28px;
+    margin-top: 56px;
+}
+
+
+
+
+
+
+
+.animation2{
+    color: var(--83869A, #83869A);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 286px;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+
+
+
+.getstarted{
+    color: var(--F74780, #F74780);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    margin-top: 24px;
+    margin-left: 28px;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 375px;
+    height: 120px;
+    background: var(--13183F, #13183F);
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+.skilled{
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 16px;
+
+}
+
+
+
+
+
+
+.button3{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    border: none;
+    margin-left: 114px;
+
+}
